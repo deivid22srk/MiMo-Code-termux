@@ -8,7 +8,7 @@ pkg install -y glibc-repo
 
 # 2. Atualizar novamente para carregar o novo repositório e instalar as bibliotecas de compatibilidade
 pkg update -y
-pkg install -y glibc openssl-glibc ncurses-glibc grun tar curl
+pkg install -y glibc openssl-glibc ncurses-glibc glibc-runner tar curl
 
 # 3. Definir diretórios de instalação
 INSTALL_DIR="$HOME/.mimocode/bin"
